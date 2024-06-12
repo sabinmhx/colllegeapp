@@ -36,18 +36,6 @@
   }
 }
 
-.card .button1 {
-  background-color: #1a1a1a;
-  color: #ffffff;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-
 .card {
   padding: 2em;
 }
