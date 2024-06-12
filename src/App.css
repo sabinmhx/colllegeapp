@@ -11,9 +11,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
@@ -22,6 +24,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -31,6 +34,18 @@
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
   }
+}
+
+.card .button1 {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
 }
 
 .card {
